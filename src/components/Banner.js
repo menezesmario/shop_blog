@@ -10,8 +10,8 @@ function Banner() {
     <div className='hero-container'>
       <video src='/videos/coffeebanner.mp4' autoPlay loop muted />
       {/* <Video /> */}
-      <h1>reCoffee, o café do programador</h1>
-      <p>Conheça nossos produtos</p>
+      <h1>Cafés especiais diretamente do produtor</h1>
+      <p>Descontos especiais para programadores</p>
       <div className='hero-btns'>
         <Button className='btns'
                 buttonStyle='btn--outline'

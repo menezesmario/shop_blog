@@ -1,8 +1,8 @@
-// import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 import './Cards.css';
 
-import CardItem from './CardItem';
-// const CardItem = lazy(() => import('./CardItem'));
+// import CardItem from './CardItem';
+const CardItem = lazy(() => import('./CardItem'));
 
 function Cards() {
   return (
@@ -12,19 +12,22 @@ function Cards() {
         <div className='cards__wrapper'>
         
           <ul className='cards__items'>
-            {/* <Suspense fallback={<p>Carregando...</p>}> */}
+            <Suspense fallback={<p>Carregando...</p>}>
             <CardItem
               src='images/coffeebuy.jpg'
               text='Café no Supermercado: Como Comprar?'
               label='dicas'
               path='/'
             />
-            {/* </Suspense> */}
+            </Suspense>
+            <Suspense fallback={<img style={{position: "absolute", top: 0, bottom: 0, left: 0, right: 0, margin: "auto"}} src="https://www.eurobitume.eu/fileadmin/generic/pits_downloadcenter/Resources/Public/images/loading.gif" alt="loading banner..."/>}>
             <CardItem
               src='images/drinkingcoffee.jpg'
               text='Os Benefícios do Café no trabalho e nos estudos'
               label='dicas'
               path='/'/>
+                          </Suspense>
+
           </ul>
           
           <ul className='cards__items'>
