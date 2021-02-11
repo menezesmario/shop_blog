@@ -10,7 +10,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/coffeebuy.jpg'
               text='Café no Supermercado: Como Comprar?'
               label='dicas'
               path='/'
@@ -24,7 +24,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/borracafe.jpg'
               text='Conheça 4 maneiras de reutilizar a borra do café em casa'
               label='Café e Saúde'
               path='/'
@@ -36,7 +36,7 @@ function Cards() {
               path='/'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='images/coldbrew.jpg'
               text='O clima está quente e não ajuda? Invista em cafés gelados!'
               label='Receitas'
               path='/'
