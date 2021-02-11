@@ -62,14 +62,14 @@ function Footer() {
           </div>
           <small class='website-rights'>reCoffee © 2020</small>
           <div class='social-icons'>
-            <Link
+            {/* <Link
               class='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link instagram'
               to='/'
@@ -88,11 +88,11 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://github.com/menezesmario/shop_blog'
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i class='fab fa-github'/>
             </Link>
             <Link
               class='social-icon-link twitter'
