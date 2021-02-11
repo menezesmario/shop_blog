@@ -59,7 +59,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              reCoffe
+              reCoffee
               <i style={{margin: 10}} class='fas fa-mug-hot' />
             </Link>
           </div>
