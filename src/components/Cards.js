@@ -16,8 +16,8 @@ function Cards() {
               path='/'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='O Melhor Café do Brasil em 5 Aspectos'
+              src='images/drinkingcoffee.jpg'
+              text='Os Benefícios do Café no trabalho e nos estudos'
               label='dicas'
               path='/'
             />
@@ -30,7 +30,7 @@ function Cards() {
               path='/'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/capuccino.jpg'
               text='Qual é a diferença do cappuccino italiano e do cappuccino tradicional?'
               label='Receitas'
               path='/'
