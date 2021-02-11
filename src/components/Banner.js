@@ -2,11 +2,14 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Banner.css';
+// import Video from './Video';
+
 
 function Banner() {
   return (
     <div className='hero-container'>
       <video src='/videos/coffeebanner.mp4' autoPlay loop muted />
+      {/* <Video /> */}
       <h1>reCoffee, o café do programador</h1>
       <p>Conheça nossos produtos</p>
       <div className='hero-btns'>

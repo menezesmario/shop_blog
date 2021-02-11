@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+// import React, { lazy, Suspense } from 'react';
 import './Cards.css';
 
 import CardItem from './CardItem';

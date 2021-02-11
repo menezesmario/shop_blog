@@ -13,13 +13,13 @@ const Footer = lazy(() => import('../Footer'));
 function Home() {
   return (
     <>
-      <Suspense fallback={<p>Carregando...</p>}>
+      <Suspense fallback={<p style={{textAlign: "center", verticalAlign: "center", height: "300px"}}>Loading Banner...</p>}>
         <Banner />
       </Suspense>
-      <Suspense fallback={<p>Carregando...</p>}>
+      <Suspense fallback={<p style={{textAlign: "center", verticalAlign: "center", height: "300px"}}>Loading Posts...</p>}>
         <Cards />
       </Suspense>
-      <Suspense fallback={<p>Carregando...</p>}>
+      <Suspense fallback={<p style={{textAlign: "center", verticalAlign: "center", height: "300px"}}>Loading Banner...</p>}>
       <Footer />
       </Suspense>
 
