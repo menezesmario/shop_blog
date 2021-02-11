@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './Banner.css';
 
-function HeroSection() {
+function Banner() {
   return (
     <div className='hero-container'>
       <video src='/videos/coffeebanner.mp4' autoPlay loop muted />
@@ -30,4 +30,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Banner;

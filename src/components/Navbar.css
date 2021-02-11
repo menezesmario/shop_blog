@@ -1,5 +1,5 @@
 .navbar {
-    /* background: linear-gradient(90deg, rgba(28, 27, 27, 0.1) 10%, rgba(53, 40, 40, 0.1) 90%) transparent ; */
+    background: linear-gradient(90deg, rgba(28, 27, 27, 1) 10%, rgba(53, 40, 40, 1) 90%) transparent ;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: rgb(202, 158, 75);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -64,7 +64,7 @@
   }
   
   .fa-bars {
-    color: #fff;
+    color: rgb(214, 173, 39);
   }
   
   .nav-links-mobile {
