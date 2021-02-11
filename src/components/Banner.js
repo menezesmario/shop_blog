@@ -11,7 +11,7 @@ function Banner() {
       <video src='/videos/coffeebanner.mp4' autoPlay loop muted />
       {/* <Video /> */}
       <h1>Cafés especiais diretamente do produtor</h1>
-      <p>Descontos especiais para programadores</p>
+      <p>Descontos super especiais para programadores</p>
       <div className='hero-btns'>
         <Button className='btns'
                 buttonStyle='btn--outline'

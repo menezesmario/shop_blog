@@ -50,6 +50,26 @@ function Cards() {
               path='/'
             />
           </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/borracafe.jpg'
+              text='Conheça 4 maneiras de reutilizar a borra do café em casa'
+              label='Café e Saúde'
+              path='/'
+            />
+            <CardItem
+              src='images/capuccino.jpg'
+              text='Qual é a diferença do cappuccino italiano e do cappuccino tradicional?'
+              label='Receitas'
+              path='/'
+            />
+            <CardItem
+              src='images/coldbrew.jpg'
+              text='O clima está quente e não ajuda? Invista em cafés gelados!'
+              label='Receitas'
+              path='/'
+            />
+          </ul>
         </div>
       </div>
     </div>

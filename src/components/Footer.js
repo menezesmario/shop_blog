@@ -8,7 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Receba no seu e-mail, dicas e promoções em primeira mão.
+          Concorra a um ano de café por nossa conta!
+        </p>
+        <p style={{marginBottom: 20}}>
+          1 pacote por mês dos melhores cafés do Brasil
         </p>
         
         <div className='input-areas'>
@@ -60,7 +63,7 @@ function Footer() {
               <i style={{margin: 10}} class='fas fa-mug-hot' />
             </Link>
           </div>
-          <small class='website-rights'>reCoffee © 2020</small>
+          <small class='website-rights'>reCoffee © 2021</small>
           <div class='social-icons'>
             {/* <Link
               class='social-icon-link facebook'
@@ -88,7 +91,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='https://github.com/menezesmario/shop_blog'
+              to='/'
               target='_blank'
               aria-label='Twitter'
             >
@@ -102,7 +105,12 @@ function Footer() {
             >
               <i class='fab fa-linkedin' />
             </Link>
+        
           </div>
+          
+        </div>
+        <div>
+          <p style={{textAlign: "center", fontWeight: 'light'}}>Mário Menezes | RecodePro 20/21</p>
         </div>
       </section>
     </div>
