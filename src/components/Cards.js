@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import './Cards.css';
+
 import CardItem from './CardItem';
+// const CardItem = lazy(() => import('./CardItem'));
 
 function Cards() {
   return (
@@ -8,20 +10,23 @@ function Cards() {
       <h1>Leia nosso blog</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
+        
           <ul className='cards__items'>
+            {/* <Suspense fallback={<p>Carregando...</p>}> */}
             <CardItem
               src='images/coffeebuy.jpg'
               text='Café no Supermercado: Como Comprar?'
               label='dicas'
               path='/'
             />
+            {/* </Suspense> */}
             <CardItem
               src='images/drinkingcoffee.jpg'
               text='Os Benefícios do Café no trabalho e nos estudos'
               label='dicas'
-              path='/'
-            />
+              path='/'/>
           </ul>
+          
           <ul className='cards__items'>
             <CardItem
               src='images/borracafe.jpg'
