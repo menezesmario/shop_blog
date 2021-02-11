@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-2.mp4' autoPlay loop muted />
+      <video src='/videos/coffeebanner.mp4' autoPlay loop muted />
       <h1>reCoffee, o café do programador</h1>
       <p>Conheça nossos produtos</p>
       <div className='hero-btns'>

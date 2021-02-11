@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Leia nosso blog</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              text='Café no Supermercado: Como Comprar?'
+              label='dicas'
+              path='/'
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              text='O Melhor Café do Brasil em 5 Aspectos'
+              label='dicas'
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              text='Conheça 4 maneiras de reutilizar a borra do café em casa'
+              label='Café e Saúde'
+              path='/'
             />
             <CardItem
               src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              text='Qual é a diferença do cappuccino italiano e do cappuccino tradicional?'
+              label='Receitas'
+              path='/'
             />
             <CardItem
               src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              text='O clima está quente e não ajuda? Invista em cafés gelados!'
+              label='Receitas'
+              path='/'
             />
           </ul>
         </div>
